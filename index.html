@@ -1,14 +1,75 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Auto Un-Grayscale</title>
+  <meta name="description" content="Auto Un-Grayscale restores normal colors on webpages when heavy grayscale or desaturation filters are detected." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; margin: 0; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+    h1 { margin: 0 0 8px; font-size: 32px; }
+    .tag { display:inline-block; padding:6px 10px; border-radius:999px; background:#f2f2f2; font-size: 13px; margin: 6px 8px 0 0; }
+    h2 { margin-top: 28px; font-size: 18px; }
+    ul { margin: 10px 0 0 18px; }
+    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 18px; margin-top: 18px; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: #555; }
+    .footer { margin-top: 28px; font-size: 13px; color: #666; }
+    code { background:#f6f6f6; padding:2px 6px; border-radius:6px; }
+  </style>
 </head>
 <body>
-  <h1>Auto Un-Grayscale</h1>
-  <p>This page exists to host the privacy policy.</p>
-  <p>
-    <a href="privacy.html">Privacy Policy</a>
-  </p>
+  <div class="wrap">
+    <h1>Auto Un-Grayscale</h1>
+    <p class="muted">
+      A lightweight Chrome extension that restores normal colors on webpages when heavy grayscale
+      or desaturation filters are detected—improving readability and visual comfort.
+    </p>
+
+    <span class="tag">Works automatically</span>
+    <span class="tag">No tracking</span>
+    <span class="tag">No data collection</span>
+    <span class="tag">Runs locally</span>
+
+    <div class="card">
+      <h2>What it does</h2>
+      <ul>
+        <li>Detects excessive grayscale / desaturation effects applied across a webpage</li>
+        <li>Overrides those filters to restore normal colors</li>
+        <li>Helps improve clarity and readability when browsing</li>
+      </ul>
+
+      <h2>Privacy</h2>
+      <p class="muted">
+        The extension does not collect, store, or transmit any user data. All logic runs locally in your browser.
+      </p>
+
+      <h2>Permissions</h2>
+      <p class="muted">
+        The extension needs access to webpages you visit in order to detect and override color filters.
+        It does not analyze page content for analytics or tracking.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+        <!-- Optional: add a support email or GitHub issues link -->
+        <!-- <li><a href="mailto:your-email@example.com">Support</a></li> -->
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>
+        If you publish this extension on Chrome Web Store, you can use this page as the Homepage and Support URL.
+      </p>
+      <p>
+        Page URL: <code>https://punpiti.github.io/auto-ungrayscale/</code>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
