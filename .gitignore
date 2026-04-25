@@ -1,0 +1,16 @@
+.venv/
+.env
+.env.*
+!.env.example
+.python-version
+.codex
+.picasa.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/*.zip
+extension/chrome-extension/
+.DS_Store
+Thumbs.db
